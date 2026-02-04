@@ -69,7 +69,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 ### 🔹 3. Install Dependencies
-pip install -r requirements.txt
+
+Install the required libraries manually:
+
+```bash
+pip install numpy pandas scikit-learn nltk streamlit matplotlib seaborn
+
 
 
 ### 🔹 4. Run the Streamlit App
