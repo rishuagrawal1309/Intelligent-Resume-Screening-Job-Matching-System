@@ -62,3 +62,25 @@ The system helps streamline the recruitment process by intelligently understandi
 ```bash
 git clone https://github.com/your-username/Intelligent-Resume-Screening-Job-Matching-System.git
 cd Intelligent-Resume-Screening-Job-Matching-System
+
+### 🔹 2. Create & Activate Virtual Environment
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+### 🔹 3. Install Dependencies
+pip install -r requirements.txt
+
+
+### 🔹 4. Run the Streamlit App
+streamlit run app.py
+
+
+⚠️ Important Note
+Trained model files (clf.pkl, tfidf.pkl, label_encoder.pkl) are not included in this repository due to GitHub’s file size limitations.
+
+
+➡️ To generate them:
+Run the training notebook/script provided in the project
+Models will be created locally and used automatically by the app
+This follows standard machine learning project practices.
