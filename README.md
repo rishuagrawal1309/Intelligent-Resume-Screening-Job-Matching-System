@@ -58,8 +58,7 @@ The system helps streamline the recruitment process by intelligently understandi
 
 ## 🚀 How to Run the Project
 
-### 🔹 1. Clone the Repository
-```bash
+### 🔹 1. Clone the repository
 git clone https://github.com/your-username/Intelligent-Resume-Screening-Job-Matching-System.git
 cd Intelligent-Resume-Screening-Job-Matching-System
 
@@ -71,10 +70,7 @@ source .venv/bin/activate
 ### 🔹 3. Install Dependencies
 
 Install the required libraries manually:
-
-```bash
 pip install numpy pandas scikit-learn nltk streamlit matplotlib seaborn
-
 
 
 ### 🔹 4. Run the Streamlit App
